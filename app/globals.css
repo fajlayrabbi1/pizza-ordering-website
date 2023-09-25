@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&family=Satisfy&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply outline-none rounded-full font-btnFont font-semibold px-6 py-3 hover:scale-105 transition-all;
+  }
+}
